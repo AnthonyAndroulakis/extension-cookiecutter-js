@@ -31,7 +31,6 @@ jobs:
         restore-keys: |
           pip-3.7-
           pip-
-
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
       run: echo "::set-output name=dir::$(yarn cache dir)"
